@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCE454B1AFEDD7C00B8F90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE454A1AFEDD7C00B8F90C /* main.m */; };
+		7CCE454E1AFEDD7C00B8F90C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE454D1AFEDD7C00B8F90C /* AppDelegate.m */; };
+		7CCE45511AFEDD7C00B8F90C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE45501AFEDD7C00B8F90C /* ViewController.m */; };
+		7CCE45541AFEDD7C00B8F90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE45521AFEDD7C00B8F90C /* Main.storyboard */; };
+		7CCE45561AFEDD7C00B8F90C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE45551AFEDD7C00B8F90C /* Images.xcassets */; };
+		7CCE45591AFEDD7C00B8F90C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE45571AFEDD7C00B8F90C /* LaunchScreen.xib */; };
+		7CCE45651AFEDD7C00B8F90C /* TaxAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE45641AFEDD7C00B8F90C /* TaxAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCE455F1AFEDD7C00B8F90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCE453D1AFEDD7C00B8F90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCE45441AFEDD7C00B8F90C;
+			remoteInfo = TaxApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CCE45451AFEDD7C00B8F90C /* TaxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCE45491AFEDD7C00B8F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCE454A1AFEDD7C00B8F90C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCE454C1AFEDD7C00B8F90C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CCE454D1AFEDD7C00B8F90C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CCE454F1AFEDD7C00B8F90C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CCE45501AFEDD7C00B8F90C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CCE45531AFEDD7C00B8F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCE45551AFEDD7C00B8F90C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCE45581AFEDD7C00B8F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CCE455E1AFEDD7C00B8F90C /* TaxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCE45631AFEDD7C00B8F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCE45641AFEDD7C00B8F90C /* TaxAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCE45421AFEDD7C00B8F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCE455B1AFEDD7C00B8F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCE453C1AFEDD7C00B8F90C = {
+			isa = PBXGroup;
+			children = (
+				7CCE45471AFEDD7C00B8F90C /* TaxApp */,
+				7CCE45611AFEDD7C00B8F90C /* TaxAppTests */,
+				7CCE45461AFEDD7C00B8F90C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCE45461AFEDD7C00B8F90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE45451AFEDD7C00B8F90C /* TaxApp.app */,
+				7CCE455E1AFEDD7C00B8F90C /* TaxAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCE45471AFEDD7C00B8F90C /* TaxApp */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE454C1AFEDD7C00B8F90C /* AppDelegate.h */,
+				7CCE454D1AFEDD7C00B8F90C /* AppDelegate.m */,
+				7CCE454F1AFEDD7C00B8F90C /* ViewController.h */,
+				7CCE45501AFEDD7C00B8F90C /* ViewController.m */,
+				7CCE45521AFEDD7C00B8F90C /* Main.storyboard */,
+				7CCE45551AFEDD7C00B8F90C /* Images.xcassets */,
+				7CCE45571AFEDD7C00B8F90C /* LaunchScreen.xib */,
+				7CCE45481AFEDD7C00B8F90C /* Supporting Files */,
+			);
+			path = TaxApp;
+			sourceTree = "<group>";
+		};
+		7CCE45481AFEDD7C00B8F90C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE45491AFEDD7C00B8F90C /* Info.plist */,
+				7CCE454A1AFEDD7C00B8F90C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCE45611AFEDD7C00B8F90C /* TaxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE45641AFEDD7C00B8F90C /* TaxAppTests.m */,
+				7CCE45621AFEDD7C00B8F90C /* Supporting Files */,
+			);
+			path = TaxAppTests;
+			sourceTree = "<group>";
+		};
+		7CCE45621AFEDD7C00B8F90C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE45631AFEDD7C00B8F90C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCE45441AFEDD7C00B8F90C /* TaxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCE45681AFEDD7C00B8F90C /* Build configuration list for PBXNativeTarget "TaxApp" */;
+			buildPhases = (
+				7CCE45411AFEDD7C00B8F90C /* Sources */,
+				7CCE45421AFEDD7C00B8F90C /* Frameworks */,
+				7CCE45431AFEDD7C00B8F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxApp;
+			productName = TaxApp;
+			productReference = 7CCE45451AFEDD7C00B8F90C /* TaxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCE455D1AFEDD7C00B8F90C /* TaxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCE456B1AFEDD7C00B8F90C /* Build configuration list for PBXNativeTarget "TaxAppTests" */;
+			buildPhases = (
+				7CCE455A1AFEDD7C00B8F90C /* Sources */,
+				7CCE455B1AFEDD7C00B8F90C /* Frameworks */,
+				7CCE455C1AFEDD7C00B8F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCE45601AFEDD7C00B8F90C /* PBXTargetDependency */,
+			);
+			name = TaxAppTests;
+			productName = TaxAppTests;
+			productReference = 7CCE455E1AFEDD7C00B8F90C /* TaxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCE453D1AFEDD7C00B8F90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					7CCE45441AFEDD7C00B8F90C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					7CCE455D1AFEDD7C00B8F90C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7CCE45441AFEDD7C00B8F90C;
+					};
+				};
+			};
+			buildConfigurationList = 7CCE45401AFEDD7C00B8F90C /* Build configuration list for PBXProject "TaxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCE453C1AFEDD7C00B8F90C;
+			productRefGroup = 7CCE45461AFEDD7C00B8F90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCE45441AFEDD7C00B8F90C /* TaxApp */,
+				7CCE455D1AFEDD7C00B8F90C /* TaxAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCE45431AFEDD7C00B8F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE45541AFEDD7C00B8F90C /* Main.storyboard in Resources */,
+				7CCE45591AFEDD7C00B8F90C /* LaunchScreen.xib in Resources */,
+				7CCE45561AFEDD7C00B8F90C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCE455C1AFEDD7C00B8F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCE45411AFEDD7C00B8F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE45511AFEDD7C00B8F90C /* ViewController.m in Sources */,
+				7CCE454E1AFEDD7C00B8F90C /* AppDelegate.m in Sources */,
+				7CCE454B1AFEDD7C00B8F90C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCE455A1AFEDD7C00B8F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE45651AFEDD7C00B8F90C /* TaxAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCE45601AFEDD7C00B8F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCE45441AFEDD7C00B8F90C /* TaxApp */;
+			targetProxy = 7CCE455F1AFEDD7C00B8F90C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCE45521AFEDD7C00B8F90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCE45531AFEDD7C00B8F90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCE45571AFEDD7C00B8F90C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCE45581AFEDD7C00B8F90C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCE45661AFEDD7C00B8F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCE45671AFEDD7C00B8F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCE45691AFEDD7C00B8F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CCE456A1AFEDD7C00B8F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CCE456C1AFEDD7C00B8F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxApp.app/TaxApp";
+			};
+			name = Debug;
+		};
+		7CCE456D1AFEDD7C00B8F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxApp.app/TaxApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCE45401AFEDD7C00B8F90C /* Build configuration list for PBXProject "TaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCE45661AFEDD7C00B8F90C /* Debug */,
+				7CCE45671AFEDD7C00B8F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCE45681AFEDD7C00B8F90C /* Build configuration list for PBXNativeTarget "TaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCE45691AFEDD7C00B8F90C /* Debug */,
+				7CCE456A1AFEDD7C00B8F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CCE456B1AFEDD7C00B8F90C /* Build configuration list for PBXNativeTarget "TaxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCE456C1AFEDD7C00B8F90C /* Debug */,
+				7CCE456D1AFEDD7C00B8F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCE453D1AFEDD7C00B8F90C /* Project object */;
+}
