@@ -41,8 +41,7 @@
                                         <exclude reference="b3h-g6-Lqi"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="144" y="286" width="113" height="29"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="L72-AY-fSK"/>
                                         <include reference="b3h-g6-Lqi"/>
@@ -73,31 +72,6 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Price" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-vo-Dv1">
-                                <rect key="frame" x="233" y="397" width="97" height="30"/>
-                                <color key="backgroundColor" red="0.12549020349979401" green="0.043137256056070328" blue="0.17254902422428131" alpha="0.12" colorSpace="deviceRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="iru-MY-Ckm"/>
-                                    <constraint firstAttribute="width" constant="113" id="qoP-zA-hiU"/>
-                                </constraints>
-                                <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="iru-MY-Ckm"/>
-                                        <exclude reference="qoP-zA-hiU"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                    <rect key="frame" x="144" y="216" width="113" height="30"/>
-                                    <mask key="constraints">
-                                        <include reference="iru-MY-Ckm"/>
-                                        <include reference="qoP-zA-hiU"/>
-                                    </mask>
-                                </variation>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aem-rR-ibn">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.81000000000000005" colorSpace="calibratedRGB"/>
@@ -116,8 +90,7 @@
                                         <exclude reference="Lbb-s6-A3B"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="158" y="354" width="84" height="27"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="KO6-dK-9ZY"/>
                                         <include reference="Lbb-s6-A3B"/>
@@ -127,6 +100,30 @@
                                     <action selector="onCalculateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTk-gH-6H9"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Price" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-vo-Dv1">
+                                <rect key="frame" x="233" y="397" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.12549020349979401" green="0.043137256056070328" blue="0.17254902422428131" alpha="0.12" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iru-MY-Ckm"/>
+                                    <constraint firstAttribute="width" constant="113" id="qoP-zA-hiU"/>
+                                </constraints>
+                                <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iru-MY-Ckm"/>
+                                        <exclude reference="qoP-zA-hiU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                    <mask key="constraints">
+                                        <include reference="iru-MY-Ckm"/>
+                                        <include reference="qoP-zA-hiU"/>
+                                    </mask>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -149,12 +146,12 @@
                             <mask key="constraints">
                                 <exclude reference="H5r-jT-lLn"/>
                                 <exclude reference="aPM-NF-Tge"/>
-                                <exclude reference="NwC-td-7DA"/>
-                                <exclude reference="7A5-AI-dIH"/>
-                                <exclude reference="Bug-W1-dVE"/>
                                 <exclude reference="ObZ-1W-QaC"/>
                                 <exclude reference="h00-c5-cd3"/>
                                 <exclude reference="mYx-Wm-sjF"/>
+                                <exclude reference="7A5-AI-dIH"/>
+                                <exclude reference="Bug-W1-dVE"/>
+                                <exclude reference="NwC-td-7DA"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -167,12 +164,12 @@
                             <mask key="constraints">
                                 <include reference="H5r-jT-lLn"/>
                                 <include reference="aPM-NF-Tge"/>
-                                <include reference="NwC-td-7DA"/>
-                                <include reference="7A5-AI-dIH"/>
-                                <include reference="Bug-W1-dVE"/>
                                 <include reference="ObZ-1W-QaC"/>
                                 <include reference="h00-c5-cd3"/>
                                 <include reference="mYx-Wm-sjF"/>
+                                <include reference="7A5-AI-dIH"/>
+                                <include reference="Bug-W1-dVE"/>
+                                <include reference="NwC-td-7DA"/>
                             </mask>
                         </variation>
                     </view>
